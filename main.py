@@ -59,9 +59,9 @@ def capture_image_from_cam_into_temp(sign=1):
 
 def captureImage(ent, sign=1):
     if(sign == 1):
-        filename = os.getcwd()+'\\temp\\test_img1.png'
+        filename = os.getcwd()+'https://github.com/chamarasab/Signature-Matching/blob/8123e6ffd5cde11d5b981a2262a877696ced2ac6/images/R.jpeg'
     else:
-        filename = os.getcwd()+'\\temp\\test_img2.png'
+        filename = os.getcwd()+'https://github.com/chamarasab/Signature-Matching/blob/8123e6ffd5cde11d5b981a2262a877696ced2ac6/images/R.jpeg'
     # messagebox.showinfo(
     #     'SUCCESS!!!', 'Press Space Bar to click picture and ESC to exit')
     res = None
