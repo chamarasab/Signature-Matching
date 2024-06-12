@@ -46,9 +46,9 @@ def capture_image_from_cam_into_temp(sign=1):
                 os.mkdir('temp', mode=0o777)  # make sure the directory exists
             # img_name = "./temp/opencv_frame_{}.png".format(img_counter)
             if(sign == 1):
-                img_name = "./temp/test_img1.png"
+                img_name = "https://github.com/chamarasab/Signature-Matching/blob/7bdcbbacf255fb58b97b1c78c25c502c5b8d933c/images/R.jpeg"
             else:
-                img_name = "./temp/test_img2.png"
+                img_name = "https://github.com/chamarasab/Signature-Matching/blob/7bdcbbacf255fb58b97b1c78c25c502c5b8d933c/images/R.jpeg"
             print('imwrite=', cv2.imwrite(filename=img_name, img=frame))
             print("{} written!".format(img_name))
             # img_counter += 1
